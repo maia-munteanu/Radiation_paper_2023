@@ -17,7 +17,7 @@ To analyse samples and generate plots, run SNV_ID_sample_plots.R.
 To analyse the SNV signatures and generate plots, run SNVsig_plots.R. For indels, run IDsig_plots.R.
 
 To perform randomizations of mutation burdens, SNV and indel signature activities, run randomizations.R and then randomizations_plots.R for plots.
-To analyse structura variant calls from Manta run manta_analysis.R.
+To analyse structural variant calls from Manta run manta_analysis.R.
 To analyse clustered SNVs, run analysis_clusters.R.
 
 For regional enrichment, visit https://github.com/tdelhomme/RegionalEnrichment-nf/. 
