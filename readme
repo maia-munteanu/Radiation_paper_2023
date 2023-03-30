@@ -1,23 +1,20 @@
 Our raw and processed data is available at: https://figshare.com/s/4f071118f2fde3f00a26
 This is code used for paper: https://www.biorxiv.org/content/10.1101/2022.07.29.501997v1
 
+#### These steps are optional, the data is already present in the FigShare directory ####
 First, run get_somatic_variants.sh to obtain vcfs for each sample containing its unique snvs and indels
-Then, run get_txt_files.sh to obtain txt files of these vcfs; they will be used by filter_snvs.R and filter_indels.R 
-
+Then, run get_txt_files.sh to obtain txt files of these vcfs.
 To filter the discrete set of snvs further, run filter_snvs.R. This is create new vcf files.
 To filter the discrete set of indels further, run filter_indels.R. This is create new vcf files.
-
 Run get_Zou_Kucab_indels.R to get vcfs for Zou and Kucab indels. 
 Run get_Zou_Kucab.R to get snv counts for Zou and Kucab.
-
 Run sigprofiler_snvmatrix.sh to generate matrices for SigProfilerExtractor.
 To extract SNV and indel signatures with SigProfiler, run sigprofiler_cpu.sh.
 To decompose these signatures, run sigprofiler_decompose.sh.
-
+#### #### #### #### #### #### #### #### #### #### #### #### #### #### #### #### #### #### ##### 
 
 To analyse samples and generate plots, run SNV_ID_sample_plots.R.
 To analyse the SNV signatures and generate plots, run SNVsig_plots.R. For indels, run IDsig_plots.R.
-
 
 To perform randomizations of mutation burdens, SNV and indel signature activities, run randomizations.R and then randomizations_plots.R for plots.
 To analyse structura variant calls from Manta run manta_analysis.R.
