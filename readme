@@ -1,4 +1,4 @@
-Our data raw and processed data is available at: https://figshare.com/s/4f071118f2fde3f00a26
+Our raw and processed data is available at: https://figshare.com/s/4f071118f2fde3f00a26
 This is code used for paper: https://www.biorxiv.org/content/10.1101/2022.07.29.501997v1
 
 First, run get_somatic_variants.sh to obtain vcfs for each sample containing its unique snvs and indels
