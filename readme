@@ -4,7 +4,7 @@ This is code used for paper: https://www.biorxiv.org/content/10.1101/2022.07.29.
 #### These steps are optional, the data is already present in the FigShare directory ####
 First, run get_somatic_variants.sh to obtain vcfs for each sample containing its unique snvs and indels
 Then, run get_txt_files.sh to obtain txt files of these vcfs.
-To filter the discrete set of snvs further, run filter_snvs.R. This is create new vcf files.
+To filter the discrete set of snvs further, run filter_snvs.R. This creates new vcf files.
 To filter the discrete set of indels further, run filter_indels.R. This creates new vcf files.
 Run get_Zou_Kucab_indels.R to get vcfs for Zou and Kucab indels. 
 Run get_Zou_Kucab.R to get snv counts for Zou and Kucab.
